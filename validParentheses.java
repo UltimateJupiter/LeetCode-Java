@@ -7,7 +7,7 @@ class Solution {
         map.put('(', ')');
         map.put('[', ']');
         map.put('{', '}');
-        Stack<Character> stack = new Stack();
+        Stack<Character> stack = new Stack<Character>();
         for (char c: s.toCharArray()){
             if (stack.isEmpty()) {
                 if (map.containsKey(c)) stack.push(c);

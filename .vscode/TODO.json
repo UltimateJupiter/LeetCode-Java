@@ -1,0 +1,9 @@
+{
+    "Stucked":[
+        "findMedianSortedArrays.java",
+        "longestValidParentheses.java"
+    ],
+    "Boring":[
+        "divide.java"
+    ]
+}
